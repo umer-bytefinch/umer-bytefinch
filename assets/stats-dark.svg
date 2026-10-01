@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="7 years of production software, 7 years of Node.js and TypeScript, 3 engineers mentored, 3 clouds">
+<title>7 years of production software, 7 years of Node.js and TypeScript, 3 engineers mentored, 3 clouds</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.mono{font-family:'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes twinkle{0%,100%{opacity:.12}50%{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:.9}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.fu{opacity:0;animation:fadeUp .9s cubic-bezier(.2,.7,.2,1) forwards;}
+.fi{opacity:0;animation:fadeIn .9s ease-out forwards;}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.1s cubic-bezier(.2,.7,.2,1) forwards;}
+@keyframes uncover{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+.cover{transform-box:fill-box;transform-origin:right center;}
+@keyframes draw{to{stroke-dashoffset:0}}
+</style>
+<defs><linearGradient id="num" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#93c5fd"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#fbbf24"/></linearGradient></defs>
+<g class="fu" style="animation-delay:0.10s"><rect x="1" y="1" width="280" height="174" rx="18" fill="#0f1a30" stroke="#1e2d4f" stroke-width="1.5"/><text x="26" y="82" font-size="64" font-weight="800" fill="url(#num)">7<tspan font-size="26" font-weight="700" fill="#fbbf24" dx="8">yrs</tspan></text><text x="26" y="118" font-size="18" font-weight="600" fill="#f1f5f9">in production software</text><text x="26" y="142" font-size="16" fill="#94a3b8">full-stack, end to end</text><rect x="26" y="156" width="230" height="4" rx="2" fill="url(#bar)" class="grow" style="animation-delay:0.5s"/></g><g class="fu" style="animation-delay:0.25s"><rect x="307" y="1" width="280" height="174" rx="18" fill="#0f1a30" stroke="#1e2d4f" stroke-width="1.5"/><text x="332" y="82" font-size="64" font-weight="800" fill="url(#num)">7<tspan font-size="26" font-weight="700" fill="#fbbf24" dx="8">yrs</tspan></text><text x="332" y="118" font-size="18" font-weight="600" fill="#f1f5f9">Node.js and TypeScript</text><text x="332" y="142" font-size="16" fill="#94a3b8">plus 6 years of React</text><rect x="332" y="156" width="230" height="4" rx="2" fill="url(#bar)" class="grow" style="animation-delay:0.7s"/></g><g class="fu" style="animation-delay:0.40s"><rect x="613" y="1" width="280" height="174" rx="18" fill="#0f1a30" stroke="#1e2d4f" stroke-width="1.5"/><text x="638" y="82" font-size="64" font-weight="800" fill="url(#num)">3<tspan font-size="26" font-weight="700" fill="#fbbf24" dx="8"></tspan></text><text x="638" y="118" font-size="18" font-weight="600" fill="#f1f5f9">engineers I mentor</text><text x="638" y="142" font-size="16" fill="#94a3b8">on real product work</text><rect x="638" y="156" width="230" height="4" rx="2" fill="url(#bar)" class="grow" style="animation-delay:0.9s"/></g><g class="fu" style="animation-delay:0.55s"><rect x="919" y="1" width="280" height="174" rx="18" fill="#0f1a30" stroke="#1e2d4f" stroke-width="1.5"/><text x="944" y="82" font-size="64" font-weight="800" fill="url(#num)">3<tspan font-size="26" font-weight="700" fill="#fbbf24" dx="8">clouds</tspan></text><text x="944" y="118" font-size="18" font-weight="600" fill="#f1f5f9">AWS · Azure · GCP</text><text x="944" y="142" font-size="16" fill="#94a3b8">and Cloudflare at the edge</text><rect x="944" y="156" width="230" height="4" rx="2" fill="url(#bar)" class="grow" style="animation-delay:1.1s"/></g></svg>
